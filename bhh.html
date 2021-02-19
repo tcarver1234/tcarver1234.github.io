@@ -5,19 +5,19 @@
   <head>
     <meta charset="utf-8" />
     <title>Black Hole Hunter &#8212; GameJam 1 documentation</title>
-    <link rel="stylesheet" href="theme/alabaster.css" type="text/css" />
-    <link rel="stylesheet" href="theme/pygments.css" type="text/css" />
-    <script type="text/javascript" id="documentation_options" data-url_root="./" src="theme/documentation_options.js"></script>
-    <script type="text/javascript" src="theme/jquery.js"></script>
-    <script type="text/javascript" src="theme/underscore.js"></script>
-    <script type="text/javascript" src="theme/doctools.js"></script>
-    <script type="text/javascript" src="theme/language_data.js"></script>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Asteroid Blaster" href="asteroid.html" />
     <link rel="prev" title="Out of this World GameJam!" href="index.html" />
    
-  <link rel="stylesheet" href="theme/custom.css" type="text/css" />
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
   
   <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
@@ -43,6 +43,7 @@
 <li><p>Choose a Predator sprite.</p></li>
 </ul>
 <p>Click on the cat icon to make a new sprite. This will be you hunting character. For example a Black Hole.</p>
+<a class="reference internal image-reference" href="_images/sprite.png"><img alt="_images/sprite.png" src="_images/sprite.png" style="width: 200px;" /></a>
 <ul>
 <li><p>Choose a Prey sprite.</p>
 <p>This is what the predator will eat to grow and get points. For example stars or planets.</p>
@@ -52,8 +53,8 @@
 </li>
 </ul>
 </div>
-<div class="section" id="step-2-program-sprites">
-<h2>Step 2 : Program Sprites<a class="headerlink" href="#step-2-program-sprites" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="step-2-program-predator-sprite">
+<h2>Step 2 : Program Predator Sprite<a class="headerlink" href="#step-2-program-predator-sprite" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>Drag your predator sprite where you want it to start.</p></li>
 <li><p>Click on the yellow event tab. Drag the block “When Green Flag clicked” onto your coding space. This will tell your sprite code when to start.</p></li>
@@ -64,6 +65,12 @@ drag: move (10) steps.
 edit: 10 -&gt; 4 steps.</p></li>
 <li><p>This will only move sprite once. To make the sprite follow the mouse:
 drag: forever loop. and place around both movement options.</p></li>
+</ul>
+<a class="reference internal image-reference" href="_images/Follow_mouse.png"><img alt="_images/Follow_mouse.png" src="_images/Follow_mouse.png" style="width: 200px;" /></a>
+</div>
+<div class="section" id="step-3-program-prey-sprites">
+<h2>Step 3 : Program Prey sprites<a class="headerlink" href="#step-3-program-prey-sprites" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
 <li><p>Drag your prey sprite to where you want it to start.</p></li>
 <li><p>Drag: event block “When green flag clicked”, to start sprite.</p></li>
 <li><p>To be eaten by predator: drag “if () then () ” loop from control. Place under the event block.</p></li>
@@ -71,6 +78,10 @@ drag: forever loop. and place around both movement options.</p></li>
 <li><p>In the if loop drag the look block “hide” so that the prey hides after touching the predator.</p></li>
 <li><p>To make this happen at any time you must drag the forever loop from control and place it around the if loop.</p></li>
 </ul>
+</div>
+<div class="section" id="final-result">
+<h2>Final Result:<a class="headerlink" href="#final-result" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="_images/BHH.png"><img alt="_images/BHH.png" src="_images/BHH.png" style="width: 200px;" /></a>
 </div>
 </div>
 
@@ -95,7 +106,9 @@ drag: forever loop. and place around both movement options.</p></li>
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Black Hole Hunter</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#step-1-make-sprites">Step 1 : Make Sprites</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#step-2-program-sprites">Step 2 : Program Sprites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-2-program-predator-sprite">Step 2 : Program Predator Sprite</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-3-program-prey-sprites">Step 3 : Program Prey sprites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#final-result">Final Result:</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="asteroid.html">Asteroid Blaster</a></li>

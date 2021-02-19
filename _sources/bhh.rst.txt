@@ -14,6 +14,9 @@ Step 1 : Make Sprites
 
 Click on the cat icon to make a new sprite. This will be you hunting character. For example a Black Hole.
 
+.. image:: sprite.png
+   :width: 200
+
 * Choose a Prey sprite.
 
   This is what the predator will eat to grow and get points. For example stars or planets. 
@@ -24,8 +27,8 @@ Click on the cat icon to make a new sprite. This will be you hunting character. 
   This will be the background, for example space. 
 
 
-Step 2 : Program Sprites
-------------------------
+Step 2 : Program Predator Sprite
+--------------------------------
 
 * Drag your predator sprite where you want it to start. 
 
@@ -41,6 +44,12 @@ Step 2 : Program Sprites
 * This will only move sprite once. To make the sprite follow the mouse:
   drag: forever loop. and place around both movement options. 
 
+.. image:: Follow_mouse.png
+   :width: 200
+
+Step 3 : Program Prey sprites
+-----------------------------
+
 * Drag your prey sprite to where you want it to start. 
 
 * Drag: event block "When green flag clicked", to start sprite. 
@@ -52,3 +61,11 @@ Step 2 : Program Sprites
 * In the if loop drag the look block "hide" so that the prey hides after touching the predator. 
 
 * To make this happen at any time you must drag the forever loop from control and place it around the if loop. 
+
+
+
+Final Result:
+--------------
+
+.. image:: BHH.png
+   :width: 200
