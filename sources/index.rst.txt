@@ -1,3 +1,4 @@
+html_theme = "alabaster"
 
 .. GameJam documentation master file, created by
    sphinx-quickstart on Fri Feb 19 17:59:31 2021.
