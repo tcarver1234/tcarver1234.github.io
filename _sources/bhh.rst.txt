@@ -15,7 +15,7 @@ Step 1 : Make Sprites
 Click on the cat icon to make a new sprite. This will be you hunting character. For example a Black Hole.
 
 .. image:: sprite.png
-   :width: 200
+   :width: 150
 
 * Choose a Prey sprite.
 
@@ -45,7 +45,7 @@ Step 2 : Program Predator Sprite
   drag: forever loop. and place around both movement options. 
 
 .. image:: Follow_mouse.png
-   :width: 200
+   :width: 350
 
 Step 3 : Program Prey sprites
 -----------------------------
@@ -68,4 +68,4 @@ Final Result:
 --------------
 
 .. image:: BHH.png
-   :width: 200
+   :width: 500
