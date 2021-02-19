@@ -1,2 +1,54 @@
 Black Hole Hunter
 ==================
+
+We will be following this tutorial: `Hungry Shark <https://youtu.be/UCVbX38FjaI>`_
+
+Don't forget to make it space themed! For example your main character could be a black-hole searching for stars to eat and grow!
+
+Find a simple example `here <https://scratch.mit.edu/projects/490244861>`_
+
+Step 1 : Make Sprites
+---------------------
+
+* Choose a Predator sprite. 
+
+Click on the cat icon to make a new sprite. This will be you hunting character. For example a Black Hole.
+
+* Choose a Prey sprite.
+
+  This is what the predator will eat to grow and get points. For example stars or planets. 
+
+
+* Choose a backdrop.
+
+  This will be the background, for example space. 
+
+
+Step 2 : Program Sprites
+------------------------
+
+* Drag your predator sprite where you want it to start. 
+
+* Click on the yellow event tab. Drag the block "When Green Flag clicked" onto your coding space. This will tell your sprite code when to start. 
+
+* To test your game at any time just click on the green flag. To stop click to red dot next to it. 
+ 
+* To get your sprite move towards the mouse: go to blue motion tab:
+  drag: Point towards (mouse-pointer)
+  drag: move (10) steps. 
+  edit: 10 -> 4 steps. 
+
+* This will only move sprite once. To make the sprite follow the mouse:
+  drag: forever loop. and place around both movement options. 
+
+* Drag your prey sprite to where you want it to start. 
+
+* Drag: event block "When green flag clicked", to start sprite. 
+
+* To be eaten by predator: drag "if () then () " loop from control. Place under the event block. 
+  
+* Go to sensing and select "touching () " and drag this into the "if" loop. Choose the name of your predator in the drop down box. 
+
+* In the if loop drag the look block "hide" so that the prey hides after touching the predator. 
+
+* To make this happen at any time you must drag the forever loop from control and place it around the if loop. 

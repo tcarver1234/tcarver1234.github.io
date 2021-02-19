@@ -14,6 +14,7 @@
     <script type="text/javascript" src="theme/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Asteroid Blaster" href="asteroid.html" />
     <link rel="prev" title="Out of this World GameJam!" href="index.html" />
    
   <link rel="stylesheet" href="theme/custom.css" type="text/css" />
@@ -33,6 +34,44 @@
             
   <div class="section" id="black-hole-hunter">
 <h1>Black Hole Hunter<a class="headerlink" href="#black-hole-hunter" title="Permalink to this headline">¶</a></h1>
+<p>We will be following this tutorial: <a class="reference external" href="https://youtu.be/UCVbX38FjaI">Hungry Shark</a></p>
+<p>Don’t forget to make it space themed! For example your main character could be a black-hole searching for stars to eat and grow!</p>
+<p>Find a simple example <a class="reference external" href="https://scratch.mit.edu/projects/490244861">here</a></p>
+<div class="section" id="step-1-make-sprites">
+<h2>Step 1 : Make Sprites<a class="headerlink" href="#step-1-make-sprites" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Choose a Predator sprite.</p></li>
+</ul>
+<p>Click on the cat icon to make a new sprite. This will be you hunting character. For example a Black Hole.</p>
+<ul>
+<li><p>Choose a Prey sprite.</p>
+<p>This is what the predator will eat to grow and get points. For example stars or planets.</p>
+</li>
+<li><p>Choose a backdrop.</p>
+<p>This will be the background, for example space.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="step-2-program-sprites">
+<h2>Step 2 : Program Sprites<a class="headerlink" href="#step-2-program-sprites" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Drag your predator sprite where you want it to start.</p></li>
+<li><p>Click on the yellow event tab. Drag the block “When Green Flag clicked” onto your coding space. This will tell your sprite code when to start.</p></li>
+<li><p>To test your game at any time just click on the green flag. To stop click to red dot next to it.</p></li>
+<li><p>To get your sprite move towards the mouse: go to blue motion tab:
+drag: Point towards (mouse-pointer)
+drag: move (10) steps.
+edit: 10 -&gt; 4 steps.</p></li>
+<li><p>This will only move sprite once. To make the sprite follow the mouse:
+drag: forever loop. and place around both movement options.</p></li>
+<li><p>Drag your prey sprite to where you want it to start.</p></li>
+<li><p>Drag: event block “When green flag clicked”, to start sprite.</p></li>
+<li><p>To be eaten by predator: drag “if () then () ” loop from control. Place under the event block.</p></li>
+<li><p>Go to sensing and select “touching () ” and drag this into the “if” loop. Choose the name of your predator in the drop down box.</p></li>
+<li><p>In the if loop drag the look block “hide” so that the prey hides after touching the predator.</p></li>
+<li><p>To make this happen at any time you must drag the forever loop from control and place it around the if loop.</p></li>
+</ul>
+</div>
 </div>
 
 
@@ -54,7 +93,12 @@
 <h3>Navigation</h3>
 <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Black Hole Hunter</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Black Hole Hunter</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#step-1-make-sprites">Step 1 : Make Sprites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-2-program-sprites">Step 2 : Program Sprites</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="asteroid.html">Asteroid Blaster</a></li>
 </ul>
 
 <div class="relations">
@@ -62,6 +106,7 @@
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
       <li>Previous: <a href="index.html" title="previous chapter">Out of this World  GameJam!</a></li>
+      <li>Next: <a href="asteroid.html" title="next chapter">Asteroid Blaster</a></li>
   </ul></li>
 </ul>
 </div>
