@@ -4,14 +4,22 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to GameJam's documentation!
+Out of this World  GameJam!
 ===================================
+
+We will be spending the day making our own Space themed games using scratch. 
+
+You can make any game you like but there are step-by-step guides through 2 different types of scratch games you can use to base your own special game on. 
+
+At the end of the day don't forget to submit your game in order to win a prize!
+
+More details about the Game Jam `here. <https://www.cardiffsciencefestival.co.uk/en/events/kids-game-jam-out-of-this-world>`_
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
    
-   step1   
+   bhh   
 
 Using Scratch
 =============
@@ -22,12 +30,13 @@ Go to `scratch <https://scratch.mit.edu/>`_ and start creating!
 Black-Hole Monster
 ==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+We will be following this tutorial: `Hungry Shark <https://youtu.be/UCVbX38FjaI>`_
 
+* :doc:`bhh`
 
 Asteroid Blaster
 ================
 
 
+* :ref:`genindex`
+* :ref:`search`
