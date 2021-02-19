@@ -10,12 +10,24 @@ Welcome to GameJam's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   
+   step1   
+
+Using Scratch
+=============
+
+Go to `scratch <https://scratch.mit.edu/>`_ and start creating! 
 
 
-
-Indices and tables
+Black-Hole Monster
 ==================
 
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+
+Asteroid Blaster
+================
+
+
