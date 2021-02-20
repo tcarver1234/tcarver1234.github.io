@@ -45,7 +45,7 @@ You can tell the sprite :
 
 * What to follow
 
-You do this using the blue "motion" blocks. Remember the in the motion blocks "x" means the horizonatal position. So har far to the left/right your sprite is. To move your sprite left and right you change the "x" value. To move up and down you change the "y" value.  
+You do this using the blue "motion" blocks. In the motion blocks "x" means the horizontal position. So how far to the left/right your sprite is. To move your sprite left and right you change the "x" value. To move up and down you change the "y" value.  
 
 You can tell your sprite to move anywhere around the screen in order to hunt asteroids. But this game allows the spaceship to be moved along the bottom of the game screen, so only left or right but not up or down. 
 
@@ -55,12 +55,12 @@ You can do this by telling the sprite to move by:
  Choose the event block "when () key is pressed" and choosing right arrow.
  Below this block, use the motion block "change x by ()" and choose how far you want it to move each time you press the key.
 
- Repeat this but this time choosing the left arrow from the drop down of the event and add a "-" in front of the value in the motion block. this will change the x direction to move left.   
+ Repeat this but this time choosing the left arrow from the drop down of the event and add a "-" in front of the value in the motion block. This will change the x direction to move left.   
 
  * Follow the mouse:
   Choose the event block "When green flag clicked" and add it to your coding space. 
   Find the motion block "go to (mouse-pointer)" and add this to your code below the event. 
-  This will follow go to your mouse once. If you want it to keep following your mouse you must put this motion block in a forever loop from the control blocks. 
+  This will go to your mouse once. If you want it to keep following your mouse you must put this motion block in a forever loop from the control blocks. 
 
  `Video example <https://youtu.be/4N033rFSELE?t=133>`_
 
@@ -77,7 +77,7 @@ You need to tell this sprite:
 
 * When to appear (show/clone)
 
-* When to disapear (hide/delete)
+* When to disappear (hide/delete)
 
 * What to do when it touches another sprite. 
 
@@ -99,13 +99,13 @@ In this game we want to be able to shoot many blasts. We also want to be able to
 
 But we don't want to have to re-make all the code for every sprite that behaves the same. For example all the bullets for the blaster.
 
-Instead we can create clones of our sprites which will make copies which use the same instructions for how to behave. When you code your sprite you just need to use control blocks to tell it:
+Instead we can create clones of our sprites which will make copies which use the same instructions for how to behave. When you code your sprite you just need to use 3 clone control blocks to tell it:
 
 * When to make a clone : "create a clone of ()"
 
 * What the new clones should do : Start a new bit of code with "when I start as a clone"
 
-* When to delete the clone :  "delete this clone" block. You must ALWAYS use this at the ond of your clone code. 
+* When to delete the clone :  "delete this clone" block. You must ALWAYS use this at the end of your clone code. 
 
 You always need all three clone blocks when you use clones. 
 
@@ -159,7 +159,7 @@ To put the sprite anywhere on the top edge:
 Step 7 : Destroying sprites
 ----------------------------
 
-To Make the game more difficult we should also add that if these asteroids touch the player sprite then the player sprite disappears. 
+To make the game more difficult we should also add that if these asteroids touch the player sprite then the player sprite disappears. 
 
 You can do this using the show/hide blocks or delete clone blocks if your sprite is a clone. 
 

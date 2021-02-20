@@ -61,7 +61,7 @@ You can upload an image you have from before, or one from our shared <a class="r
 <li><p>When to move</p></li>
 <li><p>What to follow</p></li>
 </ul>
-<p>You do this using the blue “motion” blocks. Remember the in the motion blocks “x” means the horizonatal position. So har far to the left/right your sprite is. To move your sprite left and right you change the “x” value. To move up and down you change the “y” value.</p>
+<p>You do this using the blue “motion” blocks. In the motion blocks “x” means the horizontal position. So how far to the left/right your sprite is. To move your sprite left and right you change the “x” value. To move up and down you change the “y” value.</p>
 <p>You can tell your sprite to move anywhere around the screen in order to hunt asteroids. But this game allows the spaceship to be moved along the bottom of the game screen, so only left or right but not up or down.</p>
 <p>You can do this by telling the sprite to move by:</p>
 <blockquote>
@@ -70,14 +70,14 @@ You can upload an image you have from before, or one from our shared <a class="r
 </ul>
 <p>Choose the event block “when () key is pressed” and choosing right arrow.
 Below this block, use the motion block “change x by ()” and choose how far you want it to move each time you press the key.</p>
-<p>Repeat this but this time choosing the left arrow from the drop down of the event and add a “-” in front of the value in the motion block. this will change the x direction to move left.</p>
+<p>Repeat this but this time choosing the left arrow from the drop down of the event and add a “-” in front of the value in the motion block. This will change the x direction to move left.</p>
 <ul class="simple">
 <li><p>Follow the mouse:</p></li>
 </ul>
 <blockquote>
 <div><p>Choose the event block “When green flag clicked” and add it to your coding space.
 Find the motion block “go to (mouse-pointer)” and add this to your code below the event.
-This will follow go to your mouse once. If you want it to keep following your mouse you must put this motion block in a forever loop from the control blocks.</p>
+This will go to your mouse once. If you want it to keep following your mouse you must put this motion block in a forever loop from the control blocks.</p>
 </div></blockquote>
 <p><a class="reference external" href="https://youtu.be/4N033rFSELE?t=133">Video example</a></p>
 </div></blockquote>
@@ -89,7 +89,7 @@ This will follow go to your mouse once. If you want it to keep following your mo
 <p>You need to tell this sprite:</p>
 <ul class="simple">
 <li><p>When to appear (show/clone)</p></li>
-<li><p>When to disapear (hide/delete)</p></li>
+<li><p>When to disappear (hide/delete)</p></li>
 <li><p>What to do when it touches another sprite.</p></li>
 </ul>
 <p>In this game we want our sprites to appear when a key is pressed or the mouse is clicked. We want them to disappear when they reach the end of the game screen or if they touch another sprite. We also want our sprites to be able to add points to our player when they destroy other sprites.</p>
@@ -102,11 +102,11 @@ This will follow go to your mouse once. If you want it to keep following your mo
 <h2>Step 4 : Cloning your sprites<a class="headerlink" href="#step-4-cloning-your-sprites" title="Permalink to this headline">¶</a></h2>
 <p>In this game we want to be able to shoot many blasts. We also want to be able to have many obstacles or enemies.</p>
 <p>But we don’t want to have to re-make all the code for every sprite that behaves the same. For example all the bullets for the blaster.</p>
-<p>Instead we can create clones of our sprites which will make copies which use the same instructions for how to behave. When you code your sprite you just need to use control blocks to tell it:</p>
+<p>Instead we can create clones of our sprites which will make copies which use the same instructions for how to behave. When you code your sprite you just need to use 3 clone control blocks to tell it:</p>
 <ul class="simple">
 <li><p>When to make a clone : “create a clone of ()”</p></li>
 <li><p>What the new clones should do : Start a new bit of code with “when I start as a clone”</p></li>
-<li><p>When to delete the clone :  “delete this clone” block. You must ALWAYS use this at the ond of your clone code.</p></li>
+<li><p>When to delete the clone :  “delete this clone” block. You must ALWAYS use this at the end of your clone code.</p></li>
 </ul>
 <p>You always need all three clone blocks when you use clones.</p>
 <p><a class="reference external" href="https://youtu.be/4N033rFSELE?t=545">Video example</a></p>
@@ -140,7 +140,7 @@ This will follow go to your mouse once. If you want it to keep following your mo
 </div>
 <div class="section" id="step-7-destroying-sprites">
 <h2>Step 7 : Destroying sprites<a class="headerlink" href="#step-7-destroying-sprites" title="Permalink to this headline">¶</a></h2>
-<p>To Make the game more difficult we should also add that if these asteroids touch the player sprite then the player sprite disappears.</p>
+<p>To make the game more difficult we should also add that if these asteroids touch the player sprite then the player sprite disappears.</p>
 <p>You can do this using the show/hide blocks or delete clone blocks if your sprite is a clone.</p>
 <p><a class="reference external" href="https://youtu.be/4N033rFSELE?t=1282">Video example</a></p>
 </div>
