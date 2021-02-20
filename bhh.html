@@ -5,19 +5,19 @@
   <head>
     <meta charset="utf-8" />
     <title>Black Hole Hunter &#8212; GameJam 1 documentation</title>
-    <link rel="stylesheet" href="theme/alabaster.css" type="text/css" />
-    <link rel="stylesheet" href="theme/pygments.css" type="text/css" />
-    <script type="text/javascript" id="documentation_options" data-url_root="./" src="theme/documentation_options.js"></script>
-    <script type="text/javascript" src="theme/jquery.js"></script>
-    <script type="text/javascript" src="theme/underscore.js"></script>
-    <script type="text/javascript" src="theme/doctools.js"></script>
-    <script type="text/javascript" src="theme/language_data.js"></script>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Asteroid Blaster" href="asteroid.html" />
     <link rel="prev" title="Out of this World GameJam!" href="index.html" />
    
-  <link rel="stylesheet" href="theme/custom.css" type="text/css" />
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
   
   <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
@@ -37,51 +37,79 @@
 <p>We will be following this tutorial: <a class="reference external" href="https://youtu.be/UCVbX38FjaI">Hungry Shark</a></p>
 <p>Don’t forget to make it space themed! For example your main character could be a black-hole searching for stars to eat and grow!</p>
 <p>Find a simple example <a class="reference external" href="https://scratch.mit.edu/projects/490244861">here</a></p>
+<p>If you have never used scratch before go back to the Using Scratch section.</p>
+<p>Otherwise start a new scratch project and type in your game name in the blue bar at the top of the screen.</p>
 <div class="section" id="step-1-make-sprites">
 <h2>Step 1 : Make Sprites<a class="headerlink" href="#step-1-make-sprites" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p>Choose a Predator sprite.</p></li>
+<p>For this game tutorial the player controls a predator sprite who eats other sprites. You will need to make a predator sprite that the player controls and a prey sprite which is eaten.</p>
+<div class="section" id="choose-a-predator-sprite">
+<h3>Choose a Predator sprite.<a class="headerlink" href="#choose-a-predator-sprite" title="Permalink to this headline">¶</a></h3>
+<p>Hover over the cat icon in the bottom right of the sprite section. to make a new sprite. YOu will then see options for adding a new sprite.</p>
+<a class="reference internal image-reference" href="_images/sprite.png"><img alt="_images/sprite.png" src="_images/sprite.png" style="width: 150px;" /></a>
+<p>The first sprite will be the player’s character. For example a <a class="reference external" href="https://youtu.be/e-P5IFTqB98">Black Hole</a> which is a massive object in space which can swallow stars and planets.</p>
+<dl class="simple">
+<dt>You have four ways of adding new sprites:</dt><dd><ul class="simple">
+<li><p>Choosing an existing scratch sprite.</p></li>
+<li><p>Paint your own sprite.</p></li>
+<li><p>Upload a sprite image from your computer, you can also download images from our <a class="reference external" href="https://drive.google.com/drive/folders/1Kjgot_vzDHXU1a0WQGkCPpA4yH43taxl?usp=sharing">GameJam pictures folder</a> to use here.</p></li>
+<li><p>Duplicate a sprite you are already using. (right click on an open sprite and click duplicate)</p></li>
 </ul>
-<p>Click on the cat icon to make a new sprite. This will be you hunting character. For example a Black Hole.</p>
-<a class="reference internal image-reference" href="images/sprite.png"><img alt="images/sprite.png" src="images/sprite.png" style="width: 150px;" /></a>
-<ul>
-<li><p>Choose a Prey sprite.</p>
-<p>This is what the predator will eat to grow and get points. For example stars or planets.</p>
-</li>
-<li><p>Choose a backdrop.</p>
-<p>This will be the background, for example space.</p>
-</li>
+</dd>
+</dl>
+</div>
+<div class="section" id="make-a-prey-sprite">
+<h3>Make a Prey sprite.<a class="headerlink" href="#make-a-prey-sprite" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>This is what the player’s sprite will eat to grow and get points. For example stars or planets.</p>
+</div></blockquote>
+</div>
+<div class="section" id="choose-a-backdrop">
+<h3>Choose a backdrop.<a class="headerlink" href="#choose-a-backdrop" title="Permalink to this headline">¶</a></h3>
+<dl class="simple">
+<dt>Hover over the backdrop button in the bottom right and add an image by one of the options:</dt><dd><ul class="simple">
+<li><p>choosing a scratch background</p></li>
+<li><p>painting a background</p></li>
+<li><p>uploading your own image or an image from the GameJam pictures folder.</p></li>
 </ul>
+</dd>
+</dl>
+<p>This will be the game background, for example space.</p>
+</div>
 </div>
 <div class="section" id="step-2-program-predator-sprite">
 <h2>Step 2 : Program Predator Sprite<a class="headerlink" href="#step-2-program-predator-sprite" title="Permalink to this headline">¶</a></h2>
+<p>You want to be able to control the predator sprite in the game so it can find the prey. We do this by making code for the sprite.</p>
 <ul class="simple">
-<li><p>Drag your predator sprite where you want it to start.</p></li>
-<li><p>Click on the yellow event tab. Drag the block “When Green Flag clicked” onto your coding space. This will tell your sprite code when to start.</p></li>
-<li><p>To test your game at any time just click on the green flag. To stop click to red dot next to it.</p></li>
-<li><p>To get your sprite move towards the mouse: go to blue motion tab:
-drag: Point towards (mouse-pointer)
-drag: move (10) steps.
-edit: 10 -&gt; 4 steps.</p></li>
+<li><p>Drag your predator/player sprite where you want it to start on the game screen.</p></li>
+<li><p>Click on the yellow event tab. Drag the block “When Green Flag clicked” onto your coding space. This will tell your sprite code to start when the game begins.</p></li>
+<li><p>To get your sprite move towards the mouse go to blue motion tab:
+drag “Point towards (mouse-pointer)” onto your code.
+drag “move (10) steps” and add to your code.
+change the 10 to 4 steps.</p></li>
 <li><p>This will only move sprite once. To make the sprite follow the mouse:
-drag: forever loop. and place around both movement options.</p></li>
+drag: forever loop from the control section. Place this loop around both movement options in your code.</p></li>
 </ul>
-<a class="reference internal image-reference" href="images/Follow_mouse.png"><img alt="images/Follow_mouse.png" src="images/Follow_mouse.png" style="width: 350px;" /></a>
+<a class="reference internal image-reference" href="_images/Follow_mouse.png"><img alt="_images/Follow_mouse.png" src="_images/Follow_mouse.png" style="width: 350px;" /></a>
 </div>
 <div class="section" id="step-3-program-prey-sprites">
 <h2>Step 3 : Program Prey sprites<a class="headerlink" href="#step-3-program-prey-sprites" title="Permalink to this headline">¶</a></h2>
+<p>You need your prey sprites to appear on the screen but disappear when they are eaten by the predator. This means they need their own code.</p>
 <ul class="simple">
-<li><p>Drag your prey sprite to where you want it to start.</p></li>
-<li><p>Drag: event block “When green flag clicked”, to start sprite.</p></li>
-<li><p>To be eaten by predator: drag “if () then () ” loop from control. Place under the event block.</p></li>
-<li><p>Go to sensing and select “touching () ” and drag this into the “if” loop. Choose the name of your predator in the drop down box.</p></li>
-<li><p>In the if loop drag the look block “hide” so that the prey hides after touching the predator.</p></li>
-<li><p>To make this happen at any time you must drag the forever loop from control and place it around the if loop.</p></li>
+<li><p>Drag your prey sprite to where you want it to start on your game screen.</p></li>
+<li><p>Drag: event block “When green flag clicked” into your code, to start sprite at the begining of the game.</p></li>
+<li><p>To be eaten by predator drag the “if () then () ” loop from the control section. Place this loop under the event block.</p></li>
+<li><p>We want our prey to be eaten if it touches the predator. To do this, go to the sensing section and select “touching () ” and drag this into the “if” loop after the “if”. Choose the name of your predator in the drop down box. Any action in the loop is now activated by the predator touching the prey.</p></li>
+<li><p>Find the block “hide” from the look section. If you place this in the “Then” part inside of the “if” loop then the prey will disappear after touching the predator.</p></li>
+<li><p>As it it, this code will only happen once. If you want the prey to be eaten at any time, drag the forever loop from control and place it around the if loop.</p></li>
 </ul>
 </div>
 <div class="section" id="final-result">
 <h2>Final Result:<a class="headerlink" href="#final-result" title="Permalink to this headline">¶</a></h2>
-<a class="reference internal image-reference" href="images/BHH.png"><img alt="images/BHH.png" src="images/BHH.png" style="width: 500px;" /></a>
+<p>Your player can now follow the mouse to eat prey around the screen.</p>
+<p>You can change the sprites, the backdrop and their code. They can move faster, the prey can run away, the predator can grow, you can make more obstacles, you can gain points by eating prey.</p>
+<p>Feel free play around with your game. There are more coding skills you can try in the next game tutorial.</p>
+<p>Below is an example of what your end project could look like.</p>
+<a class="reference internal image-reference" href="_images/BHH.png"><img alt="_images/BHH.png" src="_images/BHH.png" style="width: 500px;" /></a>
 </div>
 </div>
 

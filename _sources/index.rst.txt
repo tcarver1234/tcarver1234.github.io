@@ -9,9 +9,9 @@ Out of this World  GameJam!
 
 We will be spending the day making our own Space themed games using scratch. 
 
-You can make any game you like but there are step-by-step guides through 2 different types of scratch games you can use to base your own special game on. 
+Make any game you like, as long as it's space themed! To help you get started here are two guides to making a game in scratch: one simple game about hunting black holes and one about blasting asteroids. 
 
-At the end of the day don't forget to submit your game in order to win a prize!
+At the end of the day don't forget to share your game in order to be considered for a festival prize!
 
 More details about the Game Jam `here. <https://www.cardiffsciencefestival.co.uk/en/events/kids-game-jam-out-of-this-world>`_
 
@@ -25,8 +25,22 @@ More details about the Game Jam `here. <https://www.cardiffsciencefestival.co.uk
 Using Scratch
 =============
 
-Go to `scratch <https://scratch.mit.edu/>`_ and start creating! 
+* Go to `scratch <https://scratch.mit.edu/>`_ 
 
+* Click "Join Scratch" to make an account so that you can share your games!
+
+* Click on "Start Creating" to open a project.  
+  When you open a project you should see something like the image below:
+  
+.. image:: empty_scratch.png
+
+The coding menu is on the left. In the middle is the space to build your code. On the right you will see your game above and the sprites you are using below. 
+
+Make a name for your project in the blue bar at the top of the page. 
+
+To test your game at any time just click on the green flag. To stop click to red dot next to it.
+
+For more help you can click on "Tutorials" button in the blue bar above next to the project name or ask a question on zoom or padlet. 
 
 Black-Hole Monster
 ==================
@@ -42,5 +56,3 @@ We will be following this tutorial: `Space Invaders <https://youtu.be/4N033rFSEL
 
 * :doc:`asteroid`
 
-* :ref:`genindex`
-* :ref:`search`

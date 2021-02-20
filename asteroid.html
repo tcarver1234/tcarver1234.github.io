@@ -36,8 +36,10 @@
 <p>We are following this tutorial : <a class="reference external" href="https://www.youtube.com/watch?v=4N033rFSELE&amp;feature=youtu.be&amp;ab_channel=Hackingtons">Space Invaders</a></p>
 <p>Remember you can make the game as different as you want. This tutorial is designed to show you what you can do with a scratch game.</p>
 <p>Don’t forget the space theme!</p>
+<p>Open a new <a class="reference external" href="https://scratch.mit.edu/">scratch</a> project and name your game to begin.</p>
 <div class="section" id="step-1-making-sprites">
 <h2>Step 1 : Making Sprites<a class="headerlink" href="#step-1-making-sprites" title="Permalink to this headline">¶</a></h2>
+<p>Our first sprite here will be the sprite the player controls. For example a spaceship that will blast asteroids.</p>
 <p>There are 3 main ways to make a sprite:</p>
 <ul class="simple">
 <li><p>Choose an existing sprite</p></li>
@@ -57,23 +59,52 @@ You can upload an image you have from before, or one from our shared <a class="r
 <li><p>When to move</p></li>
 <li><p>What to follow</p></li>
 </ul>
-<p>You do this using the blue “motion” blocks.</p>
+<p>You do this using the blue “motion” blocks. Remember the in the motion blocks “x” means the horizonatal position. So har far to the left/right your sprite is. To move your sprite left and right you change the “x” value. To move up and down you change the “y” value.</p>
+<p>You can tell your sprite to move anywhere around the screen in order to hunt asteroids. But this game allows the spaceship to be moved along the bottom of the game screen, so only left or right but not up or down.</p>
+<p>You can do this by telling the sprite to move by:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Using keys:</p></li>
+</ul>
+<p>Choose the event block “when () key is pressed” and choosing right arrow.
+Below this block, use the motion block “change x by ()” and choose how far you want it to move each time you press the key.</p>
+<p>Repeat this but this time choosing the left arrow from the drop down of the event and add a “-” in front of the value in the motion block. this will change the x direction to move left.</p>
+<ul class="simple">
+<li><p>Follow the mouse:</p></li>
+</ul>
+<blockquote>
+<div><p>Choose the event block “When green flag clicked” and add it to your coding space.
+Find the motion block “go to (mouse-pointer)” and add this to your code below the event.
+This will follow go to your mouse once. If you want it to keep following your mouse you must put this motion block in a forever loop from the control blocks.</p>
+</div></blockquote>
 <p><a class="reference external" href="https://youtu.be/4N033rFSELE?t=133">Video example</a></p>
+</div></blockquote>
 </div>
 <div class="section" id="step-3-making-a-blaster">
 <h2>Step 3 : Making a blaster<a class="headerlink" href="#step-3-making-a-blaster" title="Permalink to this headline">¶</a></h2>
-<p>To shoot objects you need to make a new sprite. This sprite will be the bullet/ball/blast.</p>
+<p>We want to allow our player to shoot other sprites with a blaster. In order to do this we need to make our blast bullets.</p>
+<p>These bullets will act like new sprites which need their own code.</p>
 <p>You need to tell this sprite:</p>
 <ul class="simple">
 <li><p>When to appear (show/clone)</p></li>
 <li><p>When to disapear (hide/delete)</p></li>
 <li><p>What to do when it touches another sprite.</p></li>
 </ul>
+<p>In this game we want our sprites to appear when a key is pressed or the mouse is clicked. We want them to disappear when they reach the end of the game screen or if they touch another sprite. We also want our sprites to be able to add points to our player when they destroy other sprites.</p>
+<p>We control when our bullets appear by using the show/hide blocks from the looks section.</p>
+<p>We know if our bullets are on the edge of the screen or touching another sprite using blocks in the sensing section.</p>
+<p>We create points for our player and add to those points using blocks from the Variables section.</p>
 <p><a class="reference external" href="https://youtu.be/4N033rFSELE?t=282">Video example</a></p>
 </div>
 <div class="section" id="step-4-cloning-your-sprites">
 <h2>Step 4 : Cloning your sprites<a class="headerlink" href="#step-4-cloning-your-sprites" title="Permalink to this headline">¶</a></h2>
-<p>If you want to have many sprites which act the same way by using the same code then you need to clone them.</p>
+<p>In this game we want to be able to shoot many blasts. We also want to be able to have many obstacles or enemies.</p>
+<p>But we don’t want to have to re-make all the code for every sprite that behaves the same. For example all the bullets for the blaster.</p>
+<p>Instead we can create clones of our sprites which will make copies which use teh same instructions for how to behave. When you code your sprite you just need to use control blocks to tell it:
+* When to make a clone “create a clone of ()”
+* What the new clones should do. Start a new bit of code with “when I start as a clone”
+* When to delete the clone. “delete this clone” block. You must ALWAYS use this at the ond of your clone code.</p>
+<p>You always need all three clone blocks when you use clones.</p>
 <p><a class="reference external" href="https://youtu.be/4N033rFSELE?t=545">Video example</a></p>
 <p>If you want to control you sprites with the mouse button find the (mouse) option in sensing.</p>
 <p><a class="reference external" href="https://youtu.be/4N033rFSELE?t=703">Video example</a></p>
@@ -81,16 +112,26 @@ You can upload an image you have from before, or one from our shared <a class="r
 <div class="section" id="step-5-enemy-sprites">
 <h2>Step 5 : Enemy sprites<a class="headerlink" href="#step-5-enemy-sprites" title="Permalink to this headline">¶</a></h2>
 <p>In order to make the game a challenge you need obstacles. These obstacles make it harder for you to win and can even destroy you to end the game.</p>
+<p>In this game we are making asteroids we can blast with our spaceship. We then need to make a new sprite which we tell to disappear when it touches our blasts/bullets.</p>
+<p>e asteroids will be new sprites which we have to add to our game. We need to also tell them:</p>
+<ul class="simple">
+<li><p>Where to start: For example at the top of the screen (y=180).</p></li>
+<li><p>When to appear: For example every 5s.</p></li>
+<li><p>When to disappear: For example when touched by a blaster.</p></li>
+</ul>
 <p><a class="reference external" href="https://youtu.be/4N033rFSELE?t=820">Video example</a></p>
 </div>
 <div class="section" id="step-6-starting-in-a-random-position">
 <h2>Step 6 : Starting in a random position<a class="headerlink" href="#step-6-starting-in-a-random-position" title="Permalink to this headline">¶</a></h2>
 <p>If you want an element of surprise get your prizes or enemies to appear in random positions.</p>
+<p>This is done by adding a blue motion block after an event or control block.</p>
+<p>To put the sprite anywhere on the screen, find the “go to ()” block and choose “random position”.</p>
+<p>To put the sprite anywhere on the top edge, find the “go to x:() y:()” block. in the x section out the random number generator from the green operators blocks. In this generator change it to pick a random number from -240 to 240. Change the y number in the blue block to 180 which is the top of the screen.</p>
 <p><a class="reference external" href="https://youtu.be/4N033rFSELE?t=1017">Video example</a></p>
 </div>
 <div class="section" id="step-7-destroying-sprites">
 <h2>Step 7 : Destroying sprites<a class="headerlink" href="#step-7-destroying-sprites" title="Permalink to this headline">¶</a></h2>
-<p>If you want to destroy enemy sprites, or be destroyed by enemy.</p>
+<p>To Make the game more difficult we should also add that if these asteroids touch the player sprite then the player sprite disappears.</p>
 <p>You can do this using the show/hide blocks or delete clone blocks if your sprite is a clone.</p>
 <p><a class="reference external" href="https://youtu.be/4N033rFSELE?t=1282">Video example</a></p>
 </div>
