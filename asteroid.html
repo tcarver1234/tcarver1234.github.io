@@ -5,18 +5,18 @@
   <head>
     <meta charset="utf-8" />
     <title>Asteroid Blaster &#8212; GameJam 1 documentation</title>
-    <link rel="stylesheet" href="theme/alabaster.css" type="text/css" />
-    <link rel="stylesheet" href="theme/pygments.css" type="text/css" />
-    <script type="text/javascript" id="documentation_options" data-url_root="./" src="theme/documentation_options.js"></script>
-    <script type="text/javascript" src="theme/jquery.js"></script>
-    <script type="text/javascript" src="theme/underscore.js"></script>
-    <script type="text/javascript" src="theme/doctools.js"></script>
-    <script type="text/javascript" src="theme/language_data.js"></script>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="prev" title="Black Hole Hunter" href="bhh.html" />
    
-  <link rel="stylesheet" href="theme/custom.css" type="text/css" />
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
   
   <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
@@ -33,6 +33,73 @@
             
   <div class="section" id="asteroid-blaster">
 <h1>Asteroid Blaster<a class="headerlink" href="#asteroid-blaster" title="Permalink to this headline">¶</a></h1>
+<p>We are following this tutorial : <a class="reference external" href="https://www.youtube.com/watch?v=4N033rFSELE&amp;feature=youtu.be&amp;ab_channel=Hackingtons">Space Invaders</a></p>
+<p>Remember you can make the game as different as you want. This tutorial is designed to show you what you can do with a scratch game.</p>
+<p>Don’t forget the space theme!</p>
+<div class="section" id="step-1-making-sprites">
+<h2>Step 1 : Making Sprites<a class="headerlink" href="#step-1-making-sprites" title="Permalink to this headline">¶</a></h2>
+<p>There are 3 main ways to make a sprite:</p>
+<ul class="simple">
+<li><p>Choose an existing sprite</p></li>
+<li><p>Upload a sprite image.
+You can upload an image you have from before, or one from our shared <a class="reference external" href="https://drive.google.com/drive/folders/1Kjgot_vzDHXU1a0WQGkCPpA4yH43taxl?usp=sharing">folder</a></p></li>
+<li><p>Paint your own sprite.</p></li>
+</ul>
+<p>Pick which of these you want by hovering over the sprite button (the cat).</p>
+<p><a class="reference external" href="https://youtu.be/4N033rFSELE?t=56">Video example</a></p>
+</div>
+<div class="section" id="step-2-moving-your-sprites">
+<h2>Step 2 : Moving your sprites<a class="headerlink" href="#step-2-moving-your-sprites" title="Permalink to this headline">¶</a></h2>
+<p>You can tell the sprite :</p>
+<ul class="simple">
+<li><p>Where to start</p></li>
+<li><p>Where to move</p></li>
+<li><p>When to move</p></li>
+<li><p>What to follow</p></li>
+</ul>
+<p>You do this using the blue “motion” blocks.</p>
+<p><a class="reference external" href="https://youtu.be/4N033rFSELE?t=133">Video example</a></p>
+</div>
+<div class="section" id="step-3-making-a-blaster">
+<h2>Step 3 : Making a blaster<a class="headerlink" href="#step-3-making-a-blaster" title="Permalink to this headline">¶</a></h2>
+<p>To shoot objects you need to make a new sprite. This sprite will be the bullet/ball/blast.</p>
+<p>You need to tell this sprite:</p>
+<ul class="simple">
+<li><p>When to appear (show/clone)</p></li>
+<li><p>When to disapear (hide/delete)</p></li>
+<li><p>What to do when it touches another sprite.</p></li>
+</ul>
+<p><a class="reference external" href="https://youtu.be/4N033rFSELE?t=282">Video example</a></p>
+</div>
+<div class="section" id="step-4-cloning-your-sprites">
+<h2>Step 4 : Cloning your sprites<a class="headerlink" href="#step-4-cloning-your-sprites" title="Permalink to this headline">¶</a></h2>
+<p>If you want to have many sprites which act the same way by using the same code then you need to clone them.</p>
+<p><a class="reference external" href="https://youtu.be/4N033rFSELE?t=545">Video example</a></p>
+<p>If you want to control you sprites with the mouse button find the (mouse) option in sensing.</p>
+<p><a class="reference external" href="https://youtu.be/4N033rFSELE?t=703">Video example</a></p>
+</div>
+<div class="section" id="step-5-enemy-sprites">
+<h2>Step 5 : Enemy sprites<a class="headerlink" href="#step-5-enemy-sprites" title="Permalink to this headline">¶</a></h2>
+<p>In order to make the game a challenge you need obstacles. These obstacles make it harder for you to win and can even destroy you to end the game.</p>
+<p><a class="reference external" href="https://youtu.be/4N033rFSELE?t=820">Video example</a></p>
+</div>
+<div class="section" id="step-6-starting-in-a-random-position">
+<h2>Step 6 : Starting in a random position<a class="headerlink" href="#step-6-starting-in-a-random-position" title="Permalink to this headline">¶</a></h2>
+<p>If you want an element of surprise get your prizes or enemies to appear in random positions.</p>
+<p><a class="reference external" href="https://youtu.be/4N033rFSELE?t=1017">Video example</a></p>
+</div>
+<div class="section" id="step-7-destroying-sprites">
+<h2>Step 7 : Destroying sprites<a class="headerlink" href="#step-7-destroying-sprites" title="Permalink to this headline">¶</a></h2>
+<p>If you want to destroy enemy sprites, or be destroyed by enemy.</p>
+<p>You can do this using the show/hide blocks or delete clone blocks if your sprite is a clone.</p>
+<p><a class="reference external" href="https://youtu.be/4N033rFSELE?t=1282">Video example</a></p>
+</div>
+<div class="section" id="step-8-game-over">
+<h2>Step 8 : Game Over<a class="headerlink" href="#step-8-game-over" title="Permalink to this headline">¶</a></h2>
+<p>To stop your game carrying on forever you need to have an end screen.</p>
+<p>You can do this by creating a sprite to say “Game Over” or “You have Won!”</p>
+<p><a class="reference external" href="https://youtu.be/4N033rFSELE?t=1410">Video example</a></p>
+</div>
 </div>
 
 
@@ -55,7 +122,17 @@
 <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="bhh.html">Black Hole Hunter</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Asteroid Blaster</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Asteroid Blaster</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#step-1-making-sprites">Step 1 : Making Sprites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-2-moving-your-sprites">Step 2 : Moving your sprites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-3-making-a-blaster">Step 3 : Making a blaster</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-4-cloning-your-sprites">Step 4 : Cloning your sprites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-5-enemy-sprites">Step 5 : Enemy sprites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-6-starting-in-a-random-position">Step 6 : Starting in a random position</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-7-destroying-sprites">Step 7 : Destroying sprites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-8-game-over">Step 8 : Game Over</a></li>
+</ul>
+</li>
 </ul>
 
 <div class="relations">

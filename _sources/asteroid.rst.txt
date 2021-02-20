@@ -1,2 +1,109 @@
 Asteroid Blaster
 ================
+
+We are following this tutorial : `Space Invaders <https://www.youtube.com/watch?v=4N033rFSELE&feature=youtu.be&ab_channel=Hackingtons>`_
+
+Remember you can make the game as different as you want. This tutorial is designed to show you what you can do with a scratch game. 
+
+Don't forget the space theme!
+
+
+
+Step 1 : Making Sprites
+------------------------
+
+There are 3 main ways to make a sprite:
+
+* Choose an existing sprite
+
+* Upload a sprite image. 
+  You can upload an image you have from before, or one from our shared `folder <https://drive.google.com/drive/folders/1Kjgot_vzDHXU1a0WQGkCPpA4yH43taxl?usp=sharing>`_ 
+ 
+* Paint your own sprite. 
+
+Pick which of these you want by hovering over the sprite button (the cat). 
+
+`Video example <https://youtu.be/4N033rFSELE?t=56>`_
+
+
+Step 2 : Moving your sprites
+----------------------------
+
+You can tell the sprite :
+
+* Where to start
+
+* Where to move
+
+* When to move
+
+* What to follow
+
+You do this using the blue "motion" blocks. 
+
+`Video example <https://youtu.be/4N033rFSELE?t=133>`_
+
+
+Step 3 : Making a blaster
+-------------------------
+
+To shoot objects you need to make a new sprite. This sprite will be the bullet/ball/blast. 
+
+You need to tell this sprite:
+
+* When to appear (show/clone)
+
+* When to disapear (hide/delete)
+
+* What to do when it touches another sprite. 
+
+`Video example <https://youtu.be/4N033rFSELE?t=282>`_
+
+
+Step 4 : Cloning your sprites
+------------------------------
+
+If you want to have many sprites which act the same way by using the same code then you need to clone them. 
+
+`Video example  <https://youtu.be/4N033rFSELE?t=545>`_
+
+If you want to control you sprites with the mouse button find the (mouse) option in sensing. 
+
+`Video example <https://youtu.be/4N033rFSELE?t=703>`_
+
+
+Step 5 : Enemy sprites
+------------------------
+
+In order to make the game a challenge you need obstacles. These obstacles make it harder for you to win and can even destroy you to end the game. 
+
+`Video example  <https://youtu.be/4N033rFSELE?t=820>`_ 
+
+
+Step 6 : Starting in a random position
+--------------------------------------
+
+If you want an element of surprise get your prizes or enemies to appear in random positions. 
+
+`Video example  <https://youtu.be/4N033rFSELE?t=1017>`_
+
+
+Step 7 : Destroying sprites
+----------------------------
+
+If you want to destroy enemy sprites, or be destroyed by enemy. 
+
+You can do this using the show/hide blocks or delete clone blocks if your sprite is a clone. 
+
+`Video example <https://youtu.be/4N033rFSELE?t=1282>`_
+
+
+Step 8 : Game Over
+-------------------
+
+To stop your game carrying on forever you need to have an end screen.
+
+You can do this by creating a sprite to say "Game Over" or "You have Won!"
+
+`Video example <https://youtu.be/4N033rFSELE?t=1410>`_
+
