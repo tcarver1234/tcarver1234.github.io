@@ -4,23 +4,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Out of this World  GameJam!
+Out of this World  Game Jam!
 ===================================
 
-We will be spending the day making our own Space themed games using scratch. 
+We will be spending the day making our own Space themed games using Scratch. 
 
 Make any game you like, as long as it's space themed! To help you get started here are two guides to making a game in scratch: one simple game about hunting black holes and one about blasting asteroids. 
 
 At the end of the day don't forget to share your game in order to be considered for a festival prize!
 
 More details about the Game Jam `here. <https://www.cardiffsciencefestival.co.uk/en/events/kids-game-jam-out-of-this-world>`_
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-   
-   bhh   
-   asteroid  
 
 Using Scratch
 =============
@@ -41,6 +34,14 @@ Make a name for your project in the blue bar at the top of the page.
 To test your game at any time just click on the green flag. To stop click to red dot next to it.
 
 For more help you can click on "Tutorials" button in the blue bar above next to the project name or ask a question on zoom or padlet. 
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+   
+   bhh   
+   asteroid  
+
 
 Black-Hole Monster
 ==================

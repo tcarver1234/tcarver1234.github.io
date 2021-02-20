@@ -29,7 +29,7 @@ The first sprite will be the player's character. For example a `Black Hole <http
 You have four ways of adding new sprites:
  * Choosing an existing scratch sprite.
  * Paint your own sprite.
- * Upload a sprite image from your computer, you can also download images from our `GameJam pictures folder <https://drive.google.com/drive/folders/1Kjgot_vzDHXU1a0WQGkCPpA4yH43taxl?usp=sharing>`_ to use here. 
+ * Upload a sprite image from your computer, you can also download images from our `Game Jam pictures folder <https://drive.google.com/drive/folders/1Kjgot_vzDHXU1a0WQGkCPpA4yH43taxl?usp=sharing>`_ to use here. 
  * Duplicate a sprite you are already using. (right click on an open sprite and click duplicate) 
 
 Make a Prey sprite.
@@ -43,7 +43,7 @@ Choose a backdrop.
 Hover over the backdrop button in the bottom right and add an image by one of the options:
  * choosing a scratch background
  * painting a background
- * uploading your own image or an image from the `GameJam pictures folder <https://drive.google.com/drive/folders/1Kjgot_vzDHXU1a0WQGkCPpA4yH43taxl?usp=sharing>`_. 
+ * uploading your own image or an image from the `Game Jam pictures folder <https://drive.google.com/drive/folders/1Kjgot_vzDHXU1a0WQGkCPpA4yH43taxl?usp=sharing>`_. 
    
 This will be the game background, for example space. 
 
