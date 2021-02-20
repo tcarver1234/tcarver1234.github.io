@@ -9,6 +9,7 @@ Don't forget the space theme!
 
 Open a new `scratch <https://scratch.mit.edu/>`_ project and name your game to begin. 
 
+To see an example of this style of game click `here <https://scratch.mit.edu/projects/490276120>`_ 
 
 Step 1 : Making Sprites
 ------------------------
@@ -181,3 +182,12 @@ You do this by using the "When I receive (message) block from the event section 
 
 `Video example <https://youtu.be/4N033rFSELE?t=1410>`_
 
+
+Game Example
+------------
+
+Here is an example of this style of game:
+`Scratch example <https://scratch.mit.edu/projects/490276120>`_
+
+.. image:: corona_blaster.png
+   :width: 500
