@@ -123,7 +123,7 @@ In order to make the game a challenge you need obstacles. These obstacles make i
 In this game we are making asteroids we can blast with our spaceship. We then need to make a new sprite which we tell to disappear when it touches our blasts/bullets. 
 
 
-e asteroids will be new sprites which we have to add to our game. We need to also tell them:
+The asteroids will be new sprites which we have to add to our game. We need to also tell them:
 
 * Where to start: For example at the top of the screen (y=180). 
   
@@ -143,7 +143,13 @@ This is done by adding a blue motion block after an event or control block.
 
 To put the sprite anywhere on the screen, find the "go to ()" block and choose "random position".
 
-To put the sprite anywhere on the top edge, find the "go to x:() y:()" block. in the x section out the random number generator from the green operators blocks. In this generator change it to pick a random number from -240 to 240. Change the y number in the blue block to 180 which is the top of the screen. 
+To put the sprite anywhere on the top edge:
+
+* Find the "go to x:() y:()" block and add to code. 
+  
+* In the x section put the random number generator from the green operators blocks. 
+  
+* Edit the generator block to pick a random number from -240 to 240. Change the y number in the blue block to 180 which is the top of the screen. 
 
 
 `Video example  <https://youtu.be/4N033rFSELE?t=1017>`_
@@ -164,7 +170,14 @@ Step 8 : Game Over
 
 To stop your game carrying on forever you need to have an end screen.
 
-You can do this by creating a sprite to say "Game Over" or "You have Won!"
+First you need to broadcast a message from the event blocks. You can call the message "game over" or "win" or anything you like. You will broadcast this message after an event which would end the game. For example if the player is touched by an asteroid. 
+
+
+You must then create a sprite to say "Game Over" or "You have Won!"
+This sprite must be set to not appear until the game has ended. This means setting to "hide" when the green flag is clicked. You then want to sprite to show when the correct message is broadcast. 
+
+You do this by using the "When I receive (message) block from the event section and adding "show" block underneath. 
+
 
 `Video example <https://youtu.be/4N033rFSELE?t=1410>`_
 
