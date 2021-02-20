@@ -38,6 +38,9 @@ We will be following this tutorial: `Hungry Shark <https://youtu.be/UCVbX38FjaI>
 Asteroid Blaster
 ================
 
+We will be following this tutorial: `Space Invaders <https://youtu.be/4N033rFSELE>`_
+
+* :doc:`asteroid`
 
 * :ref:`genindex`
 * :ref:`search`
