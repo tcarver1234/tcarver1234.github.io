@@ -15,7 +15,7 @@ Step 1 : Making Sprites
 
 Our first sprite here will be the sprite the player controls. For example a spaceship that will blast asteroids. 
 
-There are 3 main ways to make a sprite:
+There are 4 main ways to make a sprite:
 
 * Choose an existing sprite
 
@@ -23,6 +23,8 @@ There are 3 main ways to make a sprite:
   You can upload an image you have from before, or one from our shared `folder <https://drive.google.com/drive/folders/1Kjgot_vzDHXU1a0WQGkCPpA4yH43taxl?usp=sharing>`_ 
  
 * Paint your own sprite. 
+
+* Duplicate a sprite you are already using. (right click on an open sprite and click duplicate)
 
 Pick which of these you want by hovering over the sprite button (the cat). 
 

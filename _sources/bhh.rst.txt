@@ -3,9 +3,9 @@ Black Hole Hunter
 
 We will be following this tutorial: `Hungry Shark <https://youtu.be/UCVbX38FjaI>`_
 
-Don't forget to make it space themed! For example your main character could be a black-hole searching for stars to eat and grow!
+Don't forget to make it space themed! For example your main character could be a `Black Hole <https://youtu.be/e-P5IFTqB98>`_  searching for stars to eat and grow!
 
-Find a simple example `here <https://scratch.mit.edu/projects/490244861>`_
+Find a game example in this `link. <https://scratch.mit.edu/projects/490244861>`_
 
 If you have never used scratch before go back to the Using Scratch section. 
 
@@ -19,7 +19,7 @@ For this game tutorial the player controls a predator sprite who eats other spri
 Choose a Predator sprite. 
 #########################
 
-Hover over the cat icon in the bottom right of the sprite section. to make a new sprite. YOu will then see options for adding a new sprite. 
+Hover over the cat icon in the bottom right of the sprite section to make a new sprite. You will then see options for adding a new sprite. 
 
 .. image:: sprite.png
    :width: 150
@@ -43,7 +43,7 @@ Choose a backdrop.
 Hover over the backdrop button in the bottom right and add an image by one of the options:
  * choosing a scratch background
  * painting a background
- * uploading your own image or an image from the GameJam pictures folder. 
+ * uploading your own image or an image from the `GameJam pictures folder <https://drive.google.com/drive/folders/1Kjgot_vzDHXU1a0WQGkCPpA4yH43taxl?usp=sharing>`_. 
    
 This will be the game background, for example space. 
 
@@ -52,6 +52,8 @@ Step 2 : Program Predator Sprite
 --------------------------------
 
 You want to be able to control the predator sprite in the game so it can find the prey. We do this by making code for the sprite. 
+
+* Start by clicking on the sprite that you want to make code for. 
 
 * Drag your predator/player sprite where you want it to start on the game screen. 
 
@@ -83,14 +85,14 @@ You need your prey sprites to appear on the screen but disappear when they are e
 
 * Find the block "hide" from the look section. If you place this in the "Then" part inside of the "if" loop then the prey will disappear after touching the predator. 
 
-* As it it, this code will only happen once. If you want the prey to be eaten at any time, drag the forever loop from control and place it around the if loop. 
+* This code currently will only happen once. If you want the prey to be eaten at any time, drag the forever loop from control and place it around the if loop. 
 
 Final Result:
 --------------
 
 Your player can now follow the mouse to eat prey around the screen. 
 
-You can change the sprites, the backdrop and their code. They can move faster, the prey can run away, the predator can grow, you can make more obstacles, you can gain points by eating prey. 
+As you learn more you can change the sprites, the backdrop, and their code. The sprites can move faster, the prey can run away, the predator can grow, you can make more obstacles, you can gain points by eating prey. 
 
 Feel free play around with your game. There are more coding skills you can try in the next game tutorial. 
 
