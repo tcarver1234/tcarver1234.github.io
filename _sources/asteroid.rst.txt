@@ -98,10 +98,13 @@ In this game we want to be able to shoot many blasts. We also want to be able to
 
 But we don't want to have to re-make all the code for every sprite that behaves the same. For example all the bullets for the blaster.
 
-Instead we can create clones of our sprites which will make copies which use teh same instructions for how to behave. When you code your sprite you just need to use control blocks to tell it:
-* When to make a clone "create a clone of ()"
-* What the new clones should do. Start a new bit of code with "when I start as a clone"
-* When to delete the clone. "delete this clone" block. You must ALWAYS use this at the ond of your clone code. 
+Instead we can create clones of our sprites which will make copies which use the same instructions for how to behave. When you code your sprite you just need to use control blocks to tell it:
+
+* When to make a clone : "create a clone of ()"
+
+* What the new clones should do : Start a new bit of code with "when I start as a clone"
+
+* When to delete the clone :  "delete this clone" block. You must ALWAYS use this at the ond of your clone code. 
 
 You always need all three clone blocks when you use clones. 
 
